@@ -49,7 +49,9 @@ Modo de Uso
 - vagrant up 
 
 
-Após este comando 'vagrant up', o Vagrant ficará responsavel por baixar o sistema operacional ( neste caso Ubuntu Server 64 ), configurar a máquina virtual no VirtualBox e posteriormente baixar, instalar e configurar todos os pacotes do script 'install.sh' (O processo na primeira vez é demorado, deixe o computador processando e vai tomar um cafezinho).
+Após este comando 'vagrant up', o Vagrant ficará responsavel por baixar o sistema operacional, configurar a máquina virtual no VirtualBox e posteriormente baixar, instalar e configurar todos os pacotes do script 'install.sh'. 
+
+O processo na primeira vez é demorado, então deixe o computador processando e vai tomar um cafezinho.
 
 Quando tudo estiver pronto, um servidor web estará disponível no endereço http://192.168.28.10, e a instalação do PHPMyAdmin em http://192.168.28.10/phpmyadmin, para acessar utilize:
 
